@@ -56,9 +56,107 @@ header {
 
 .rettRosa {
     background-color: #EE82EE;
-
-
-
-    max-width: 900px ;
+    width: 900px ;
     min-height: 400px ;
+}
+
+.sfondoBianco {
+    background-color: white;
+}
+
+.flexCont {
+    width: 1200px;
+    min-height: 600px;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexItAzz {
+    background-color: #ADD8E6;
+    width: calc(100% / 5 * 3);
+    min-height: 500px;
+}
+
+.flexItRosa {
+    background-color: #FFC0CB;
+    width: calc(100% / 5 * 2);
+    min-height: 500px;
+}
+
+.flexContInv {
+    width: 1200px;
+    min-height: 600px;
+    margin: 0 auto ;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexItAzzScuro {
+    background-color: #1E90FF;
+    width: calc(100% / 5 * 3);
+    min-height: 500px;
+}
+
+.sfondoGrigio {
+    background-color: #D3D3D3;
+
+
+}
+.rettangoloVerde {
+    background-color: #228B22 ;
+    width: 1200px;
+    min-height: 900px;
+    margin: 50px auto;
+}
+
+.sfondoNeroChiaro {
+    background-color: #23272A;
+}
+
+.rettangoloRosaSalmone {
+    background-color:#F08080;
+    width: 360px;
+    min-height: 580px;
+}
+
+.flexFlexCont {
+    width: 840px;
+    min-height: 580px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flexItemAzzurro {
+    background-color:#20B2AA ;
+    height: 580px;
+    width: calc(100% / 4);
+    border: dashed white;
+
+}
+
+.foot {
+    background-color: #7FFFD4;
+    height: 80px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerflex {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+button {
+    background-color:  #FFB6C1;
+    height: 1.5rem;
+    
 }
