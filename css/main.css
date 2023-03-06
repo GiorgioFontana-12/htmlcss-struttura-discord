@@ -45,6 +45,9 @@ header {
     background-color:#00008B ;
     padding: 50px;
     min-height: 500px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     
  
@@ -53,9 +56,7 @@ header {
 
 .rettRosa {
     background-color: #EE82EE;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 
 
     max-width: 900px ;
